@@ -21,6 +21,7 @@ Discord renames its CSS classes now and then, which breaks most old themes.
 | New Rem | ShadowDevilsAvenged |
 | Horizontal Server List | Gibbu |
 | ClearVision V7 | ClearVision Team |
+| New BNHA | ShadowDevilsAvenged |
 
 All credit for the designs goes to the original authors. This repo only updates class names and fixes
 compatibility.
