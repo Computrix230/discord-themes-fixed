@@ -98,6 +98,20 @@
     "file": "themes/stardrift/Stardrift.theme.css",
     "preview": "themes/stardrift/preview.jpg",
     "license": ""
+  },
+
+  {
+    "id": "not-another-anime-theme",
+    "name": "NotAnotherAnimeTheme",
+    "author": "puckzxz",
+    "authorLink": "https://github.com/puckzxz",
+    "description": "An easily customizable and automatically updating theme.",
+    "status": "working",
+    "file": "themes/not-another-anime-theme/NotAnotherAnimeTheme.theme.css",
+    "link": "https://betterdiscord.app/themes/NotAnotherAnimeTheme",
+    "preview": "themes/not-another-anime-theme/preview.jpg",
+    "license": "Unlicense",
+    "notes": ""
   }
 
 ]

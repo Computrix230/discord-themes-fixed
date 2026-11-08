@@ -16,13 +16,14 @@ Discord renames its CSS classes now and then, which breaks most old themes.
 
 | Theme | Original author |
 |-------|-----------------|
+| Stardrift | KAZRUTx |
 | Old Akame ga Kill | ShadowDevilsAvenged |
 | New Akame ga Kill | ShadowDevilsAvenged |
 | New Rem | ShadowDevilsAvenged |
 | Horizontal Server List | Gibbu |
 | ClearVision V7 | ClearVision Team |
 | New BNHA | ShadowDevilsAvenged |
-| Stardrift | KAZRUTx |
+| NotAnotherAnimeTheme | puckzxz |
 
 All credit for the designs goes to the original authors. This repo only updates class names and fixes
 compatibility.
