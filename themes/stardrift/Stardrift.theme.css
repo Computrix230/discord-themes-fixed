@@ -1,0 +1,261 @@
+/**
+ * @name Stardrift
+ * @author KAZRUTx
+ * @description Dark space theme with a green-to-purple gradient. Inspired by the old "Space" theme made with Spectra's Neutron editor, rewritten from scratch for the 2026 Discord UI.
+ * @version 1.1.0
+ */
+
+/* Font: Concert One by Johan Kallas & Mihkel Virkus, SIL Open Font License 1.1 (hosted in this repo, license in fonts/OFL.txt) */
+@font-face {
+  font-family: "Concert One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://kazrutx.github.io/discord-themes-fixed/themes/stardrift/fonts/concert-one-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Concert One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://kazrutx.github.io/discord-themes-fixed/themes/stardrift/fonts/concert-one-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* =====================================================================
+   SETTINGS - change these to customize the theme
+   ===================================================================== */
+:root {
+  --space-green: rgb(7, 185, 111);
+  --space-purple: rgb(174, 7, 157);
+  --space-gradient: linear-gradient(90deg, var(--space-green), var(--space-purple));
+
+  --space-font: "Concert One";
+
+  --space-bg: url("https://kazrutx.github.io/discord-themes-fixed/themes/stardrift/background.jpg");
+  --space-dim: rgba(13, 13, 13, .45);    /* darkening over the wallpaper (0 = none, 1 = black) */
+
+  --space-panel: rgba(8, 8, 12, .35);    /* channel list, member list, user panel */
+  --space-surface: rgba(14, 14, 20, .96); /* popouts, menus, modals (keep dark so text is readable) */
+  --space-settings: rgba(11, 11, 15, .97); /* settings window (higher = less see-through) */
+
+  /* thin gradient frame around the whole window: set to 0px to remove it */
+  --space-frame: 2px;
+
+  /* home button icon (top left). To keep the normal Discord logo, delete the HOME BUTTON ICON section at the bottom */
+  --space-home: url("https://kazrutx.github.io/discord-themes-fixed/themes/stardrift/home.png");
+}
+
+/* =====================================================================
+   DISCORD COLOR VARIABLES
+   ===================================================================== */
+body,
+.theme-dark:not(.custom-user-profile-theme),
+.theme-darker:not(.custom-user-profile-theme),
+.theme-midnight:not(.custom-user-profile-theme) {
+  /* everything see-through so the wallpaper shows */
+  --background-base-lowest: transparent;
+  --background-base-lower: transparent;
+  --background-base-low: transparent;
+  --background-primary: transparent;
+  --background-secondary: transparent;
+  --background-secondary-alt: var(--space-panel);
+  --background-tertiary: transparent;
+  --background-accent: rgba(255, 255, 255, .06);
+  --chat-background: transparent;
+  --chat-background-default: transparent;
+  --app-frame-background: transparent;
+  --app-frame-border: transparent;
+  --bg-base-primary: transparent;
+  --bg-base-secondary: transparent;
+  --bg-base-tertiary: transparent;
+  --bg-overlay-chat: transparent;
+  --bg-overlay-app-frame: transparent;
+
+  /* floating things stay dark */
+  --background-surface-high: var(--space-surface);
+  --background-surface-higher: var(--space-surface);
+  --background-surface-highest: var(--space-surface);
+  --background-floating: var(--space-surface);
+  --bg-surface-raised: var(--space-surface);
+  --bg-surface-overlay: var(--space-surface);
+  --modal-background: var(--space-surface);
+  --modal-footer-background: rgba(0, 0, 0, .3);
+  --user-profile-overlay-background: rgba(0, 0, 0, .35);
+
+  /* inputs */
+  --channeltextarea-background: rgba(0, 0, 0, .5);
+  --input-background-default: rgba(0, 0, 0, .4);
+  --input-border-default: rgba(255, 255, 255, .08);
+  --input-border-hover: rgba(255, 255, 255, .15);
+  --input-border-active: var(--space-green);
+
+  /* hover / selected */
+  --interactive-background-hover: rgba(255, 255, 255, .05);
+  --interactive-background-active: rgba(255, 255, 255, .08);
+  --interactive-background-selected: rgba(255, 255, 255, .08);
+  --message-background-hover: rgba(0, 0, 0, .25);
+  --background-message-hover: rgba(0, 0, 0, .25);
+  --background-mod-subtle: rgba(255, 255, 255, .04);
+  --background-mod-normal: rgba(255, 255, 255, .07);
+  --background-mod-strong: rgba(255, 255, 255, .1);
+
+  /* accents */
+  --brand-500: var(--space-purple);
+  --background-brand: var(--space-purple);
+  --control-brand-foreground: var(--space-green);
+  --text-brand: var(--space-green);
+  --text-link: #3ddc97;
+  --mention-background: rgba(174, 7, 157, .25);
+  --mention-foreground: #f2a6e8;
+  --message-mentioned-background-default: rgba(174, 7, 157, .12);
+  --message-mentioned-background-hover: rgba(174, 7, 157, .18);
+  --background-mentioned: rgba(174, 7, 157, .12);
+  --background-mentioned-hover: rgba(174, 7, 157, .18);
+
+  /* borders and scrollbars */
+  --border-subtle: rgba(255, 255, 255, .05);
+  --border-muted: rgba(255, 255, 255, .05);
+  --border-normal: rgba(255, 255, 255, .08);
+  --scrollbar-auto-thumb: rgba(174, 7, 157, .55);
+  --scrollbar-auto-track: transparent;
+  --scrollbar-thin-thumb: rgba(174, 7, 157, .55);
+  --scrollbar-thin-track: transparent;
+
+  /* font */
+  --font-primary: var(--space-font), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: var(--space-font), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* =====================================================================
+   WALLPAPER
+   ===================================================================== */
+#app-mount .bg_Fd0FEH {
+  background:
+    linear-gradient(var(--space-dim), var(--space-dim)),
+    var(--space-bg) center / cover no-repeat !important;
+}
+
+/* even gradient frame around the window (green on the left, purple on the right) */
+#app-mount::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  pointer-events: none;
+  border: var(--space-frame) solid transparent;
+  border-image: var(--space-gradient) 1;
+}
+
+/* =====================================================================
+   SETTINGS
+   ===================================================================== */
+.container_XtY2mm,
+.standardSidebarView_jnk11m {
+  background: var(--space-settings) !important;
+}
+
+/* =====================================================================
+   PANELS
+   ===================================================================== */
+.chat_z_gUBg,
+.chatContent_z_gUBg,
+.container_H5ozaj,
+.header_XH4OpX,
+.subtitleContainer_z_gUBg,
+.title_z_gUBg,
+.members_86es0b,
+.member_86es0b {
+  background: transparent !important;
+}
+
+.sidebarList_pog62O,
+.container_86es0b {
+  background: var(--space-panel) !important;
+}
+
+.panels_pog62O {
+  background: var(--space-panel) !important;
+  border-radius: 10px;
+}
+
+/* =====================================================================
+   CHANNEL LIST
+   ===================================================================== */
+.wrapper_TNyK-N:hover .link_TNyK-N {
+  background: rgba(255, 255, 255, .05);
+}
+
+.wrapper_TNyK-N.modeSelected_TNyK-N .link_TNyK-N {
+  background: linear-gradient(90deg, rgba(7, 185, 111, .22), rgba(174, 7, 157, .10)) !important;
+  box-shadow: inset 3px 0 0 var(--space-green);
+}
+
+.wrapper_TNyK-N.modeSelected_TNyK-N .name_TNyK-N {
+  color: #fff;
+}
+
+/* category names (TEXT, VOICE...) */
+.mainContent_yOdhm_ .name_yOdhm_ {
+  letter-spacing: .04em;
+}
+
+/* =====================================================================
+   MEMBER LIST - group titles centered between gradient lines
+   ===================================================================== */
+.membersGroup_86es0b {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  text-align: center;
+}
+
+.membersGroup_86es0b::before,
+.membersGroup_86es0b::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--space-gradient);
+  opacity: .8;
+}
+
+/* =====================================================================
+   BUTTONS - main buttons get the gradient
+   ===================================================================== */
+.button_F7qvhY.primary_F7qvhY,
+.lookFilled_9OQtot.colorBrand_9OQtot {
+  background: var(--space-gradient) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+}
+
+.button_F7qvhY.primary_F7qvhY:hover,
+.lookFilled_9OQtot.colorBrand_9OQtot:hover {
+  filter: brightness(1.12);
+}
+
+/* =====================================================================
+   CHAT INPUT
+   ===================================================================== */
+.channelTextArea_z_gUBg {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, .06);
+}
+
+.channelTextArea_z_gUBg:focus-within {
+  border-color: rgba(7, 185, 111, .5);
+}
+
+/* =====================================================================
+   HOME BUTTON ICON
+   ===================================================================== */
+[data-list-item-id="guildsnav___home"] .childWrapper_JJ-hgR {
+  background: var(--space-home) center / cover no-repeat !important;
+}
+
+[data-list-item-id="guildsnav___home"] .childWrapper_JJ-hgR svg {
+  opacity: 0;
+}
