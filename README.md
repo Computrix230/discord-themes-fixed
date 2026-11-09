@@ -4,6 +4,8 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 
 **Browse them here:** https://KAZRUTx.github.io/discord-themes-fixed/
 
+**Need help or want a theme fixed?** Join the [support Discord](https://discord.gg/nHPjQ8TTX3). You can also [open an issue](https://github.com/KAZRUTx/discord-themes-fixed/issues).
+
 ## Install
 
 **Vencord:** Settings → Vencord → Themes → Online Themes → paste the theme's link from the website.

@@ -256,12 +256,36 @@
   dialog:focus-visible {
     outline: none;
   }
+
+  .discord-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    padding: 9px 16px;
+    border-radius: 8px;
+    background: #5865f2;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .discord-btn:hover { background: #4752c4; }
+  .discord-btn svg { width: 18px; height: 18px; }
+
+  .stuck { margin-top: 12px; }
+  .stuck a { color: var(--text); }
+  .stuck a:hover { color: var(--accent); }
 </style>
 </head>
 <body>
 <header>
   <h1>Fixed <span>Discord</span> Themes <small class="by">by KAZRUTx</small></h1>
   <p class="lead">A collection of Discord themes for Vencord and BetterDiscord. Broken old themes get fixed for the current Discord UI.</p>
+  <a class="discord-btn" href="https://discord.gg/nHPjQ8TTX3" target="_blank" rel="noopener">
+  <img src="https://cdn.simpleicons.org/discord/white" alt="" aria-hidden="true" width="20" height="20">
+  Join the support server
+</a>
 </header>
 
 <div class="toolbar">
@@ -275,7 +299,8 @@
 
 <div class="request">
   Didn't find the theme you want?
-  <a class="request-btn" href="https://github.com/KAZRUTx/discord-themes-fixed/issues/new?title=Theme%20request%3A%20&body=Theme%20name%3A%20%0A%0ALink%20to%20the%20original%20(BetterDiscord%20store%20or%20GitHub)%3A%20%0A" target="_blank" rel="noopener">Request a theme</a>
+  <a class="request-btn" href="https://discord.gg/nHPjQ8TTX3" target="_blank" rel="noopener">Request on Discord</a>
+  <a class="request-btn" href="https://github.com/KAZRUTx/discord-themes-fixed/issues/new?title=Theme%20request%3A%20&body=Theme%20name%3A%20%0A%0ALink%20to%20the%20original%20(BetterDiscord%20store%20or%20GitHub)%3A%20%0A" target="_blank" rel="noopener">Open an issue</a>
 </div>
 
 <main id="grid"></main>
@@ -285,6 +310,7 @@
   <a class="guide-link" href="guide.html">Step-by-step guide for Vencord & BetterDiscord →</a>
   <p><strong>Quick Vencord solution:</strong> click <em>Copy Vencord link</em>, then go to Settings → Vencord → Themes → Online Themes and paste it. The theme updates itself.<br>
   <strong>BetterDiscord:</strong> click <em>Download</em> and put the file in <code>%appdata%\BetterDiscord\themes</code>.</p>
+  <p class="stuck">Stuck, or a theme looks broken? Ask in <a href="https://discord.gg/nHPjQ8TTX3" target="_blank" rel="noopener">#theme-support on Discord</a> or <a href="https://github.com/KAZRUTx/discord-themes-fixed/issues" target="_blank" rel="noopener">open an issue</a>.</p>
 </section>
 
 <section class="for-authors">
@@ -314,6 +340,7 @@
   <div class="links">
     <a href="https://github.com/KAZRUTx" target="_blank" rel="noopener">GitHub</a>
     <a href="https://github.com/KAZRUTx/discord-themes-fixed/issues" target="_blank" rel="noopener">Report a broken theme</a>
+    <a href="https://discord.gg/nHPjQ8TTX3" target="_blank" rel="noopener">Discord</a>
   </div>
 </footer>
 
