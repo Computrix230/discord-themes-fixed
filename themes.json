@@ -142,6 +142,20 @@
     "preview": "themes/frosted-glass/preview.jpg",
     "notes": "",
     "license": "MIT"
+  },
+
+  {
+    "id": "wizard-ui",
+    "name": "WizardUI",
+    "author": "Nebulys",
+    "authorLink": "https://github.com/GoldenLys",
+    "description": "An amazing fully customizable theme with many addons, made with 💖 by NEBULYS.",
+    "status": "working",
+    "file": "themes/wizard-ui/WizardUI.theme.css",
+    "link": "https://betterdiscord.app/themes/WizardUI",
+    "preview": "themes/wizard-ui/preview.jpg",
+    "license": "",
+    "notes": ""
   }
 
 ]
