@@ -112,6 +112,21 @@
     "preview": "themes/not-another-anime-theme/preview.jpg",
     "license": "Unlicense",
     "notes": ""
+  },
+
+  {
+    "id": "bubble-theme-v2",
+    "name": "Bubble Theme v2",
+    "author": "ShadowDevilsAvenged",
+    "authorLink": "https://github.com/ShadowDevilsAvenged",
+    "description": "",
+    "status": "fixed",
+    "fixedOn": "2026-11-09",
+    "fixedBy": "KAZRUTx",
+    "file": "themes/bubble-theme-v2/BubbleThemev2.theme.css",
+    "preview": "themes/bubble-theme-v2/preview.jpg",
+    "notes": "",
+    "license": ""
   }
 
 ]

@@ -24,6 +24,7 @@ Discord renames its CSS classes now and then, which breaks most old themes.
 | ClearVision V7 | ClearVision Team |
 | New BNHA | ShadowDevilsAvenged |
 | NotAnotherAnimeTheme | puckzxz |
+| Bubble Theme v2 | ShadowDevilsAvenged |
 
 All credit for the designs goes to the original authors. This repo only updates class names and fixes
 compatibility.
