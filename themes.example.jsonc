@@ -16,10 +16,11 @@
     "id": "some-theme",
     "name": "Some Theme",
     "author": "SomeAuthor",
-    "authorLink": "https://github.com/SomeAuthor", //Link on the author's name (their GitHub, repo or BetterDiscord page).
+    "authorLink": "https://github.com/SomeAuthor",
     "description": "Dark theme with a city wallpaper.",
     "status": "working",
     "file": "themes/some-theme/SomeTheme.theme.css",
+    "link": "",
     "preview": "themes/some-theme/preview.jpg",
     "license": "",
     "notes": "The background image loads from imgur, no Allow needed in Vencord."

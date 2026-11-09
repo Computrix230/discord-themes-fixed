@@ -1,10 +1,8 @@
 # Fixed Discord Themes
 
-Old BetterDiscord themes, updated so they work on the current Discord UI, with Vencord and BetterDiscord.
+A collection of Discord themes for Vencord and BetterDiscord. Discord renames its CSS classes now and then, which breaks most old themes, so broken ones get fixed here for the current Discord UI.
 
 **Browse them here:** https://KAZRUTx.github.io/discord-themes-fixed/
-
-Discord renames its CSS classes now and then, which breaks most old themes.
 
 ## Install
 
@@ -28,8 +26,9 @@ Discord renames its CSS classes now and then, which breaks most old themes.
 | Frosted Glass | Gibbu |
 | WizardUI | Nebulys |
 
-All credit for the designs goes to the original authors. This repo only updates class names and fixes
-compatibility.
+## License
+
+Each theme keeps its original author's license. If there is one, you'll find it in the theme's folder.
 
 > [!IMPORTANT]
 > **Theme authors:** every design here belongs to its original creator. I only update the code so it works on current Discord.
