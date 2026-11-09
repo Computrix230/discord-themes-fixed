@@ -127,6 +127,21 @@
     "preview": "themes/bubble-theme-v2/preview.jpg",
     "notes": "",
     "license": ""
+  },
+
+  {
+    "id": "frosted-glass",
+    "name": "Frosted Glass",
+    "author": "Gibbu",
+    "authorLink": "https://github.com/Gibbu",
+    "description": "Display your picture of choice with adjustable blur and brightness. Dark theme is required.",
+    "status": "fixed",
+    "fixedOn": "2026-11-09",
+    "fixedBy": "KAZRUTx",
+    "file": "themes/frosted-glass/FrostedGlass.theme.css",
+    "preview": "themes/frosted-glass/preview.jpg",
+    "notes": "",
+    "license": "MIT"
   }
 
 ]

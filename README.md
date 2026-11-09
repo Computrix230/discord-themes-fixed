@@ -25,6 +25,7 @@ Discord renames its CSS classes now and then, which breaks most old themes.
 | New BNHA | ShadowDevilsAvenged |
 | NotAnotherAnimeTheme | puckzxz |
 | Bubble Theme v2 | ShadowDevilsAvenged |
+| Frosted Glass | Gibbu |
 
 All credit for the designs goes to the original authors. This repo only updates class names and fixes
 compatibility.
