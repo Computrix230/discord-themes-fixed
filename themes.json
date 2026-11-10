@@ -156,6 +156,21 @@
     "preview": "themes/wizard-ui/preview.jpg",
     "license": "",
     "notes": ""
+  },
+
+  {
+    "id": "calm-and-peaceful-street",
+    "name": "Calm and Peaceful Street",
+    "author": "ShadowDevilsAvenged",
+    "authorLink": "https://github.com/ShadowDevilsAvenged",
+    "description": "Girl walking on a Calm and Peaceful street",
+    "status": "fixed",
+    "fixedOn": "2026-11-10",
+    "fixedBy": "KAZRUTx",
+    "file": "themes/calm-and-peaceful-street/Calm_and_Peaceful_Street.theme.css",
+    "preview": "themes/calm-and-peaceful-street/preview.jpg",
+    "notes": "",
+    "license": ""
   }
 
 ]

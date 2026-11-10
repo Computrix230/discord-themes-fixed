@@ -27,6 +27,7 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 | Bubble Theme v2 | ShadowDevilsAvenged |
 | Frosted Glass | Gibbu |
 | WizardUI | Nebulys |
+| Calm and Peaceful Street | ShadowDevilsAvenged |
 
 ## License
 
