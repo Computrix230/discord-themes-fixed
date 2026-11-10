@@ -171,6 +171,21 @@
     "preview": "themes/calm-and-peaceful-street/preview.jpg",
     "notes": "",
     "license": ""
+  },
+
+  {
+    "id": "ggo-kirito",
+    "name": "GGO Kirito",
+    "author": "VaporousCreeper",
+    "authorLink": "https://github.com/VaporousCreeper",
+    "description": "A theme with Kirito and Deathgun fighting in GGO (Gun Gale Online).",
+    "status": "fixed",
+    "fixedOn": "2026-11-10",
+    "fixedBy": "KAZRUTx",
+    "file": "themes/ggo-kirito/GGO_Kirito.theme.css",
+    "preview": "themes/ggo-kirito/preview.jpg",
+    "notes": "",
+    "license": ""
   }
 
 ]
