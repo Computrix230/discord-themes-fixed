@@ -186,6 +186,21 @@
     "preview": "themes/ggo-kirito/preview.jpg",
     "notes": "",
     "license": ""
+  },
+
+  {
+    "id": "roxy-theme-v2",
+    "name": "Roxy Theme V2",
+    "author": "gyozagames",
+    "authorLink": "https://github.com/gyozagames01",
+    "description": ":3",
+    "status": "fixed",
+    "fixedOn": "2026-11-10",
+    "fixedBy": "KAZRUTx",
+    "file": "themes/roxy-theme-v2/Roxy_Theme_V2.css",
+    "preview": "themes/roxy-theme-v2/preview.jpg",
+    "notes": "",
+    "license": ""
   }
 
 ]

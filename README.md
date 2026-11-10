@@ -29,6 +29,7 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 | WizardUI | Nebulys |
 | Calm and Peaceful Street | ShadowDevilsAvenged |
 | GGO Kirito | VaporousCreeper |
+| Roxy Theme V2 | gyozagames |
 
 ## License
 
