@@ -279,16 +279,16 @@
   },
   
   {
-    "id": "Serena",
-    "name": "Serena",
+    "id": "serana",
+    "name": "Serana",
     "author": "ShadowDevilsAvenged",
     "authorLink": "https://github.com/ShadowDevilsAvenged",
     "description": "Requested by Dovah Thuri",
     "status": "fixed",
     "fixedOn": "2026-11-11",
     "fixedBy": "Computrix230",
-    "file": "themes/serena/serena.theme.css",
-    "preview": "themes/serena/preview.jpg",
+    "file": "themes/serana/serana.theme.css",
+    "preview": "themes/serana/preview.jpg",
     "notes": "",
     "license": ""
   }
