@@ -276,6 +276,21 @@
     "preview": "themes/zerotwo/preview.jpg",
     "notes": "",
     "license": ""
+  },
+  
+  {
+    "id": "Serena",
+    "name": "Serena",
+    "author": "ShadowDevilsAvenged",
+    "authorLink": "https://github.com/ShadowDevilsAvenged",
+    "description": "Requested by Dovah Thuri",
+    "status": "fixed",
+    "fixedOn": "2026-11-11",
+    "fixedBy": "Computrix230",
+    "file": "themes/serena/serena.theme.css",
+    "preview": "themes/serena/preview.jpg",
+    "notes": "",
+    "license": ""
   }
 
 ]
