@@ -217,7 +217,22 @@
     "notes": "",
     "license": ""
   },
-
+    
+  {
+    "id": "kurumi-date-a-live",
+    "name": "Kurumi Tokisaki",
+    "author": "ShadowDevilsAvenged",
+    "authorLink": "https://github.com/ShadowDevilsAvenged",
+    "description": "",
+    "status": "fixed",
+    "fixedOn": "2026-11-11",
+    "fixedBy": "Computrix230",
+    "file": "themes/kurumi-date-a-live/Kurumi-date-a-live.theme.css",
+    "preview": "themes/kurumi-date-a-live/preview.jpg",
+    "notes": "",
+    "license": ""
+  },
+    
   {
     "id": "dtm-18",
     "name": "DTM-18",
