@@ -261,6 +261,21 @@
     "preview": "themes/dtm-18/preview.jpg",
     "notes": "Set Discord to the Ash theme (Settings → Appearance). Darker themes show black sidebars.",
     "license": ""
+  },
+  
+  {
+    "id": "zerotwo",
+    "name": "02 from Darling in the Franxx",
+    "author": "ShadowDevilsAvenged",
+    "authorLink": "https://github.com/ShadowDevilsAvenged",
+    "description": "requested by Shoobie",
+    "status": "fixed",
+    "fixedOn": "2026-11-11",
+    "fixedBy": "Computrix230",
+    "file": "themes/zerotwo/zerotwo.theme.css",
+    "preview": "themes/zerotwo/preview.jpg",
+    "notes": "",
+    "license": ""
   }
 
 ]
