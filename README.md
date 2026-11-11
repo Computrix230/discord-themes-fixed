@@ -31,6 +31,7 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 | GGO Kirito | VaporousCreeper |
 | Roxy Theme V2 | gyozagames |
 | New Kemono Friends Theme | ShadowDevilsAvenged |
+| DTM-18 | dav154 |
 
 ## License
 

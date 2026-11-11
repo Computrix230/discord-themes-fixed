@@ -216,6 +216,21 @@
     "preview": "themes/new-kemono-friends/preview.jpg",
     "notes": "",
     "license": ""
+  },
+
+  {
+    "id": "dtm-18",
+    "name": "DTM-18",
+    "author": "dav154",
+    "authorLink": "https://github.com/davart154",
+    "description": "Aims to recreate the 2018 Discord style.",
+    "status": "fixed",
+    "fixedOn": "2026-11-11",
+    "fixedBy": "KAZRUTx",
+    "file": "themes/dtm-18/DTM-18.css",
+    "preview": "themes/dtm-18/preview.jpg",
+    "notes": "Set Discord to the Ash theme (Settings → Appearance). Darker themes show black sidebars.",
+    "license": ""
   }
 
 ]
