@@ -32,6 +32,7 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 | Roxy Theme V2 | gyozagames |
 | New Kemono Friends Theme | ShadowDevilsAvenged |
 | DTM-18 | dav154 |
+| Team Rem | ShadowDevilsAvenged |
 | Tokisaki Kurumi | ShadowDevilsAvenged |
 
 ## License
