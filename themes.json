@@ -306,6 +306,22 @@
     "preview": "themes/satoru-gojo-red-and-blue-remaster/preview.jpg",
     "notes": "",
     "license": ""
+  },
+
+  {
+    "id": "aesthetic-smooth-theme",
+    "name": "Aesthetic smooth theme",
+    "author": "Gibbu",
+    "authorLink": "https://github.com/DiscordStyles/FrostedGlass",
+    "link": "https://vsthemes.org/e/44998",
+    "description": "",
+    "status": "fixed",
+    "fixedOn": "2026-11-15",
+    "fixedBy": "KAZRUTx",
+    "file": "themes/aesthetic-smooth-theme/Aesthetic_Smooth_Theme.theme.css",
+    "preview": "themes/aesthetic-smooth-theme/preview.jpg",
+    "notes": "Based on Gibbu's Frosted Glass. Wallpaper by Sebica.",
+    "license": "MIT"
   }
 
 ]
