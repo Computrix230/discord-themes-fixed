@@ -36,6 +36,7 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 | Team Rem | ShadowDevilsAvenged |
 | Tokisaki Kurumi | ShadowDevilsAvenged |
 | Serana | ShadowDevilsAvenged |
+| Satoru Gojo red and blue Remaster | SAD SHARK#5716 |
 
 ## License
 

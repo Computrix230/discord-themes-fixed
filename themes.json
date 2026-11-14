@@ -291,6 +291,21 @@
     "preview": "themes/serana/preview.jpg",
     "notes": "",
     "license": ""
+  },
+
+  {
+    "id": "satoru-gojo-red-and-blue-remaster",
+    "name": "Satoru Gojo red and blue Remaster",
+    "author": "SAD SHARK#5716",
+    "authorLink": "https://vsthemes.org/e/50620",
+    "description": "",
+    "status": "fixed",
+    "fixedOn": "2026-11-14",
+    "fixedBy": "KAZRUTx",
+    "file": "themes/satoru-gojo-red-and-blue-remaster/SatoruGojoredandblueRemaster.theme.css",
+    "preview": "themes/satoru-gojo-red-and-blue-remaster/preview.jpg",
+    "notes": "",
+    "license": ""
   }
 
 ]
