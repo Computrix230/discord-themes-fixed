@@ -720,9 +720,13 @@ textarea {
   background: var(--gradient);
 }
 
+/* User panel - FDT fix (was: transparent) */
 #app-mount .panels_pog62O {
-  background: transparent;
+  background: rgb(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
 }
+
 #app-mount .panels_pog62O .button_9U6LUN, #app-mount .panels_pog62O .container_g6VwXp {
   background: var(--foreground);
   margin-left: 0px !important;
