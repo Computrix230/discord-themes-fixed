@@ -38,6 +38,7 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 | Serana | ShadowDevilsAvenged |
 | Satoru Gojo red and blue Remaster | SAD SHARK#5716 |
 | Aesthetic smooth theme | Gibbu (wallpaper by Sebica) |
+| Anime Shark Girl |  |
 
 ## License
 
