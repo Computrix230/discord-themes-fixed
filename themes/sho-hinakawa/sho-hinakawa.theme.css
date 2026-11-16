@@ -1,7 +1,7 @@
 /**
  * @name Sho Hinakawa
  * @author KAZRUTx
- * @version 1.0.0
+ * @version 1.1.0
  * @description Psycho-Pass theme for Enforcer Sho Hinakawa
  * @source https://github.com/KAZRUTx/discord-themes-fixed
  * @website https://KAZRUTx.github.io/discord-themes-fixed/
@@ -20,9 +20,6 @@
 @import url("https://kazrutx.github.io/discord-themes-fixed/lib/radial-status/radial-status-fdt-core.css");
 
 :root {
-  --background-image: radial-gradient(circle at 75% 20%, rgb(0, 150, 170, 0.35), transparent 55%),
-                      radial-gradient(circle at 15% 85%, rgb(40, 90, 200, 0.30), transparent 50%),
-                      linear-gradient(160deg, #050b14 0%, #0a1626 55%, #04070d 100%);
   --background-image: url("https://kazrutx.github.io/discord-themes-fixed/themes/sho-hinakawa/wallpaper.jpg");
   --background-image-blur: 0px;
   --background-image-size: cover;
@@ -33,12 +30,12 @@
   --popout-modal-size: cover;
   --popout-modal-position: center;
 
-  --home-button-image: url("https://discordstyles.github.io/FrostedGlass/discord.svg");
-  --home-button-size: 60%;
+  --home-button-image: url("https://kazrutx.github.io/discord-themes-fixed/themes/sho-hinakawa/home-icon.svg");
+  --home-button-size: cover;
   --home-button-position: center;
 
-  --serverlist-brightness: 0.85;
-  --left-brightness: 0.75;
+  --serverlist-brightness: 0.6;
+  --left-brightness: 0.6;
   --middle-brightness: 0.65;
   --right-brightness: 0.7;
   --popout-modal-brightness: 0.8;
@@ -98,4 +95,17 @@
 
 a:hover {
   text-shadow: 0 0 6px rgb(79, 227, 240, 0.6);
+}
+
+/* Title bar */
+#app-mount .bar_3zSH5d {
+  background: rgb(3, 7, 13, 0.8);
+}
+#app-mount .bar_3zSH5d [class*="winButton"],
+#app-mount .bar_3zSH5d [class*="trailing"] {
+  color: #d8f0f5;
+}
+#app-mount .bar_3zSH5d [class*="winButton"]:hover {
+  color: #ffffff;
+  background: rgb(0, 200, 220, 0.25);
 }
