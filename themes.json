@@ -136,7 +136,7 @@
     "authorLink": "https://github.com/Gibbu",
     "description": "Display your picture of choice with adjustable blur and brightness. Dark theme is required.",
     "status": "fixed",
-    "fixedOn": "2026-11-09",
+    "fixedOn": "2026-11-16",
     "fixedBy": "KAZRUTx",
     "file": "themes/frosted-glass/FrostedGlass.theme.css",
     "preview": "themes/frosted-glass/preview.jpg",
