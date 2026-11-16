@@ -39,6 +39,7 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 | Satoru Gojo red and blue Remaster | SAD SHARK#5716 |
 | Aesthetic smooth theme | Gibbu (wallpaper by Sebica) |
 | Anime Shark Girl |  |
+| Sho Hinakawa | KAZRUTx |
 
 ## License
 
