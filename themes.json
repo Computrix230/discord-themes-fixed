@@ -376,8 +376,8 @@
     "status": "fixed",
     "fixedOn": "2026-11-17",
     "fixedBy": "Computrix230",
-    "file": "themes/Ultra/Ultra.theme.css",
-    "preview": "themes/Ultra/preview.jpg",
+    "file": "themes/ultra/Ultra.theme.css",
+    "preview": "themes/ultra/preview.jpg",
     "notes": "",
     "license": "MIT"
   }
