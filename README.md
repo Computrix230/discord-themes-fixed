@@ -41,6 +41,7 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 | Anime Shark Girl |  |
 | Sho Hinakawa | KAZRUTx |
 | SoftX | Gibbu |
+| Ultra | TheCommieAxolotl |
 
 ## License
 
