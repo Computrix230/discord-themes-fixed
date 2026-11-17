@@ -365,6 +365,20 @@
     "preview": "themes/softx/preview.jpg",
     "notes": "",
     "license": ""
+  },
+  
+  {
+    "id": "Ultra",
+    "name": "Ultra",
+    "author": "TheCommieAxolotl",
+    "authorLink": "https://github.com/TheCommieAxolotl",
+    "description": "A Smooth, Black theme.",
+    "status": "fixed",
+    "fixedOn": "2026-11-17",
+    "fixedBy": "Computrix230",
+    "file": "themes/ultra/Ultra.theme.css",
+    "preview": "themes/ultra/preview.jpg",
+    "notes": "",
+    "license": "MIT"
   }
-
 ]
