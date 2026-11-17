@@ -40,6 +40,7 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 | Aesthetic smooth theme | Gibbu (wallpaper by Sebica) |
 | Anime Shark Girl |  |
 | Sho Hinakawa | KAZRUTx |
+| SoftX | Gibbu |
 
 ## License
 

@@ -350,6 +350,21 @@
     "file": "themes/sho-hinakawa/sho-hinakawa.theme.css",
     "preview": "themes/sho-hinakawa/preview.jpg",
     "license": ""
+  },
+
+  {
+    "id": "softx",
+    "name": "SoftX",
+    "author": "Gibbu",
+    "authorLink": "https://github.com/DiscordStyles/SoftX",
+    "description": "A soft and comfy feel for Discord.",
+    "status": "fixed",
+    "fixedOn": "2026-11-17",
+    "fixedBy": "KAZRUTx",
+    "file": "themes/softx/SoftX.theme.css",
+    "preview": "themes/softx/preview.jpg",
+    "notes": "",
+    "license": ""
   }
 
 ]
