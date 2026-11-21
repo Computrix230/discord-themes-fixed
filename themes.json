@@ -380,5 +380,18 @@
     "preview": "themes/ultra/preview.jpg",
     "notes": "",
     "license": "MIT"
+  },
+
+  {
+    "id": "ocean",
+    "name": "Ocean",
+    "author": "DevEvil",
+    "authorLink": "https://github.com/DevEvil99",
+    "description": "Highly customized and customizable theme for Discord.",
+    "status": "working",
+    "link": "https://betterdiscord.app/themes/Ocean",
+    "preview": "https://github.com/user-attachments/assets/fbdde0e0-d8ad-4da7-9249-b2a9a6402b46",
+    "license": "PUL"
   }
+
 ]
