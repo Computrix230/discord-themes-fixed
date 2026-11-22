@@ -392,6 +392,19 @@
     "link": "https://betterdiscord.app/themes/Ocean",
     "preview": "https://github.com/user-attachments/assets/fbdde0e0-d8ad-4da7-9249-b2a9a6402b46",
     "license": "PUL"
+  },
+
+  {
+    "id": "midnight",
+    "name": "Midnight",
+    "author": "refact0r",
+    "authorLink": "https://github.com/refact0r",
+    "description": "A dark, rounded discord theme.",
+    "status": "working",
+    "link": "",
+    "file": "themes/midnight/midnight.theme.css",
+    "preview": "themes/midnight/preview.jpg",
+    "license": "MIT"
   }
 
 ]
