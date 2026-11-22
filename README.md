@@ -8,40 +8,12 @@ A collection of Discord themes for Vencord and BetterDiscord. Discord renames it
 
 ## Install
 
+You can find our full step-by-step guide [here](https://kazrutx.github.io/discord-themes-fixed/guide.html)
+
 **Vencord:** Settings → Vencord → Themes → Online Themes → paste the theme's link from the website.
 
 **BetterDiscord:** Download the `.theme.css` file and put it in `%appdata%\BetterDiscord\themes`.
 
-## Themes
-
-| Theme | Original author |
-|-------|-----------------|
-| Stardrift | KAZRUTx |
-| Old Akame ga Kill | ShadowDevilsAvenged |
-| New Akame ga Kill | ShadowDevilsAvenged |
-| New Rem | ShadowDevilsAvenged |
-| Horizontal Server List | Gibbu |
-| ClearVision V7 | ClearVision Team |
-| New BNHA | ShadowDevilsAvenged |
-| NotAnotherAnimeTheme | puckzxz |
-| Bubble Theme v2 | ShadowDevilsAvenged |
-| Frosted Glass | Gibbu |
-| WizardUI | Nebulys |
-| Calm and Peaceful Street | ShadowDevilsAvenged |
-| GGO Kirito | VaporousCreeper |
-| Roxy Theme V2 | gyozagames |
-| New Kemono Friends Theme | ShadowDevilsAvenged |
-| DTM-18 | dav154 |
-| 02 from Darling in the Franxx | ShadowDevilsAvenged |
-| Team Rem | ShadowDevilsAvenged |
-| Tokisaki Kurumi | ShadowDevilsAvenged |
-| Serana | ShadowDevilsAvenged |
-| Satoru Gojo red and blue Remaster | SAD SHARK#5716 |
-| Aesthetic smooth theme | Gibbu (wallpaper by Sebica) |
-| Anime Shark Girl |  |
-| Sho Hinakawa | KAZRUTx |
-| SoftX | Gibbu |
-| Ultra | TheCommieAxolotl |
 
 ## License
 
