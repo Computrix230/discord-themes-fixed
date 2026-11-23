@@ -405,6 +405,20 @@
     "file": "themes/midnight/midnight.theme.css",
     "preview": "themes/midnight/preview.jpg",
     "license": "MIT"
-  }
+  },
 
+  {
+    "id": "purple-two",
+    "name": "Purple Two",
+    "author": "Lolka",
+    "authorLink": "https://vsthemes.org/e/14509",
+    "description": "Generated Automatically using [...] | Original theme [BasicBackground] made by DevilBro.",
+    "status": "fixed",
+    "fixedOn": "2026-11-23",
+    "fixedBy": "KAZRUTx",
+    "file": "themes/purple-two/purpletwo.theme.css",
+    "preview": "themes/purple-two/preview.jpg",
+    "notes": "",
+    "license": ""
+  }
 ]
