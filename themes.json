@@ -420,5 +420,21 @@
     "preview": "themes/purple-two/preview.jpg",
     "notes": "",
     "license": ""
+  },
+
+  {
+  "id": "discocities",
+  "name": "DiscoCities",
+  "author": "Vozer",
+  "authorLink": "https://github.com/SlippingGitty",
+  "description": "Retro pixel-art theme with an animated wallpaper, pixel icons, chat bubbles and a lot of rainbow. Reliving the past online, because why change?",
+  "status": "fixed",
+  "fixedOn": "2026-11-24",
+  "fixedBy": "KAZRUTx",
+  "file": "https://fdt-themes.github.io/DiscoCities/DiscoCities.theme.css",
+  "preview": "https://fdt-themes.github.io/DiscoCities/preview.jpg",
+  "license": "MIT",
+  "notes": "Maintained by FDT (github.com/fdt-themes/DiscoCities)."
   }
+
 ]
