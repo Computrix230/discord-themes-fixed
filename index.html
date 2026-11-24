@@ -461,6 +461,27 @@
   }
 
   grid.addEventListener("click", async e => {
+    // Download files from other domains (e.g. fdt-themes.github.io).
+    const dl = e.target.closest("a[download]");
+    if (dl && new URL(dl.href).origin !== location.origin) {
+      e.preventDefault();
+      try {
+        const res = await fetch(dl.href);
+        if (!res.ok) throw new Error(res.status);
+        const blob = await res.blob();
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = decodeURIComponent(dl.href.split("/").pop());
+        document.body.append(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+      } catch {
+        window.open(dl.href, "_blank", "noopener"); // fallback: open it like before
+      }
+      return;
+    }
+
     const copy = e.target.closest("[data-copy]");
     if (copy) {
       try {
