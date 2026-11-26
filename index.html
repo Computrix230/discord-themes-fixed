@@ -502,6 +502,10 @@
   zoom.addEventListener("click", () => zoom.close());
   search.addEventListener("input", render);
 
+  // Pre-filled search from the URL, e.g. ?q=fallout
+  const startQuery = new URLSearchParams(location.search).get("q");
+  if (startQuery) search.value = startQuery;
+
   fetch("themes.json", { cache: "no-cache" })
     .then(r => r.json())
     .then(data => { themes = data.sort((a, b) => a.name.localeCompare(b.name)); render(); })
